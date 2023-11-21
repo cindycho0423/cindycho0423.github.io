@@ -54,7 +54,7 @@ button:focus {
 
 /* Header */
 .header {
-    background-color: #1b1e26;
+    background-color: #050a13;
     position: fixed;
     top:0;
     width: 100%;
@@ -95,4 +95,51 @@ button:focus {
 .header__menu__item.active {
     border: 1px solid var(--color-accent);
     border-radius: 4px;
+}
+
+
+/* Home */
+#home {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    padding: 5rem 1rem;
+    padding-top: 7rem;
+    text-align: center;
+}
+
+.home__avatar {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 3px solid var(--color-accent);
+}
+
+.home__title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+.home__title--strong {
+    color: var(--color-accent);
+}
+
+.home__discription {
+    font-size: 1.3rem;
+}
+
+.home__contact {
+    display: inline-block;
+    background-color: var(--color-accent);
+    color: var(--color-black);
+    margin: 2rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+.home__contact:hover {
+    background-color: transparent;
+    color: var(--color-text);
+    outline: 2px solid var(--color-accent);
 }
