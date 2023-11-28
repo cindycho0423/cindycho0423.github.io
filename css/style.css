@@ -509,7 +509,7 @@ button:focus {
         display: none;
         flex-direction: column;
         text-align: center;
-        padding: 1rem 4rem;
+        margin: 1rem 4rem;
         gap: 1rem;
     }
 
